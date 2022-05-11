@@ -328,14 +328,42 @@ body {
 }
 
 .benefit-section {
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 .benefit-section h2 {
     text-align: start;
     font-weight: 500;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
 }
 
 .benefit-img {
     width: 100%;
+}
+
+.benefit-container {
+    background-color: #E4F0FF;
+    height: 17rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+.benefit-text {
+    width: 15rem;
+}
+
+.benefit-text h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.benefit-text p {
+    line-height: 1.5;
+}
+
+.purple {
+    background-color: #E7ECFD;
 }
