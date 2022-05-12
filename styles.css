@@ -295,6 +295,7 @@ body {
 
 .coach-pic {
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .coach-content {
@@ -327,8 +328,11 @@ body {
     font-weight: 600;
 }
 
-.benefit-section {
-    margin-top: 8rem;
+
+.benefit-content {
+    margin: -1rem;
+    background-color: #F0F6FF;
+    padding: 1rem 1rem;
 }
 
 .benefit-section h2 {
@@ -340,6 +344,7 @@ body {
 
 .benefit-img {
     width: 100%;
+    margin-top: 6rem;
 }
 
 .benefit-container {
@@ -366,4 +371,71 @@ body {
 
 .purple {
     background-color: #E7ECFD;
+}
+
+.footer {
+    text-align: center;
+    background-color: #F0F6FF;
+    margin: -1rem;
+}
+
+.footer-menu {
+    padding-bottom: 3rem;
+}
+
+.footer-title {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 3rem 0;
+}
+
+.footer-subtitle {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1.3rem 0;
+}
+
+.footer-item {
+    padding-bottom: 2rem;
+}
+
+.footer-item a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #111235;
+}
+
+.footer-bar {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer-input {
+    border: none;
+    font-family: 'Hellix';
+    color: #111235;
+    padding: 0.6rem 1.2rem;
+    width: 15rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.footer-button {
+    position: absolute;
+    right: inherit;
+    right: 8px;
+    top: 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.footer-input::placeholder {
+    color: #111235;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
