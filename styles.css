@@ -226,12 +226,13 @@ body {
 
 .content {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 0 1rem;
     position: relative;
 }
 
 .hero-image {
     width: 100%;
+    margin-top: 2rem;
 }
 
 .headline {
@@ -377,10 +378,11 @@ body {
     text-align: center;
     background-color: #F0F6FF;
     margin: -1rem;
+    border-top: 1px solid rgb(170, 170, 170);
 }
 
 .footer-menu {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .footer-title {
@@ -438,4 +440,36 @@ body {
     color: #111235;
     font-size: 0.9rem;
     font-weight: 600;
+}
+
+.footer-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer-icon a {
+    background-color: #e2eaf5;
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+
+}
+
+
+.footer-icon:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.footer-copyright p {
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 3rem 0;
+    padding-bottom: 5rem;
 }
