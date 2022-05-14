@@ -489,6 +489,10 @@ body {
 }
 
 
+
+
+/* DESKTOP */
+
 @media (min-width: 700px) {
     .hero-section {
         display: flex;
@@ -751,4 +755,12 @@ body {
     }
 
 
+}
+
+/*1149 - 700*/
+
+@media (max-width: 1149px) and (min-width: 700px) {
+    body {
+        width: max-content;
+    }
 }
